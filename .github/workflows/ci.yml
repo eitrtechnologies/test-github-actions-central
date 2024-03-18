@@ -5,7 +5,7 @@ on:
   workflow_call:
     secrets:
       TEST_ENV_VARS:
-        require: false
+        required: false
 
 
 jobs:
