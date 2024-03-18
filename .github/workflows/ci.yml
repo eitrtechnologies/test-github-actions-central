@@ -3,6 +3,9 @@ name: CI
 
 on:
   workflow_call:
+    secrets:
+      TEST_ENV_VARS:
+        require: false
 
 
 jobs:
