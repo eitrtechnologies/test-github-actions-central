@@ -3,9 +3,10 @@ name: CI
 
 on:
   workflow_call:
-    secrets:
+    inputs:
       TEST_ENV_VARS:
         required: false
+        type: string
 
 
 jobs:
