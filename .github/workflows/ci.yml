@@ -1,0 +1,11 @@
+
+name: CI
+
+on:
+  workflow_call:
+
+
+jobs:
+  test:
+    name: Test
+    uses: nicholasmhughes/test-github-actions-central/.github/workflows/test-action.yml@main
