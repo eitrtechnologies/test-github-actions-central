@@ -8,5 +8,5 @@ on:
 jobs:
   test:
     name: Test
-    uses: nicholasmhughes/test-github-actions-central/.github/workflows/test-action.yml@main
+    uses: eitrtechnologies/test-github-actions-central/.github/workflows/test-action.yml@main
     secrets: inherit
