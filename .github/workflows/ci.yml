@@ -12,4 +12,5 @@ jobs:
   test:
     name: Test
     uses: eitrtechnologies/test-github-actions-central/.github/workflows/test-action.yml@main
-    secrets: inherit
+    with:
+      TEST_ENV_VARS: ${{ secrets.TEST_ENV_VARS }}
